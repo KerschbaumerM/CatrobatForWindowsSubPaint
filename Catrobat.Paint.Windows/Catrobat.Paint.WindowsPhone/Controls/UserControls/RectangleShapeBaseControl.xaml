@@ -16,7 +16,6 @@
         x:Name="GridMainSelection"
         Width="290"
         Height="290"
-        Margin="0,0,0,0"
         HorizontalAlignment="Left"
         VerticalAlignment="Top"
         >
@@ -56,10 +55,8 @@
                                     Path=Width}"
                     Height="{Binding ElementName=AreaToDrawGrid,
                                      Path=Height}"
-                    Margin="0"
                     HorizontalAlignment="Left"
                     VerticalAlignment="Top"
-                    Visibility="Visible"
                     >
                     <Rectangle.Fill>
                         <ImageBrush
@@ -84,6 +81,26 @@
                 Visibility="Collapsed"
                 />
 
+            <Border
+                x:Name="ImportPictureBorder"
+                BorderThickness="3"
+                BorderBrush="Gray"
+                Margin="-3">
+                
+                <Rectangle
+                    x:Name="ImportPictureArea"
+                    Width="{Binding ElementName=AreaToDrawGrid, 
+                                    Path=Width}"
+                    Height="{Binding ElementName=AreaToDrawGrid,
+                                     Path=Height}"
+                    >
+                    <Rectangle.Fill>
+                        <ImageBrush
+                            x:Name="importImgBrush"
+                        />
+                    </Rectangle.Fill>
+                </Rectangle>
+            </Border>
         </Grid>
 
         <Rectangle

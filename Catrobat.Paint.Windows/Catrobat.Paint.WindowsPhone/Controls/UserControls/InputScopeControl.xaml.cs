@@ -145,8 +145,8 @@ namespace Catrobat.Paint.WindowsPhone.Controls.UserControls
                     }
                     else
                     {
-                        if (PocketPaintApplication.GetInstance().ImportImageSelectionControl != null)
-                            PocketPaintApplication.GetInstance().ImportImageSelectionControl.changeHeightOfDrawingSelection(currentValue, false);
+                        //if (PocketPaintApplication.GetInstance().ImportImageSelectionControl != null)
+                        //    PocketPaintApplication.GetInstance().ImportImageSelectionControl.changeHeightOfDrawingSelection(currentValue, false);
                     }
                 }
                 else if (currentButton.Name.Equals("btnWidthValue"))
@@ -161,8 +161,8 @@ namespace Catrobat.Paint.WindowsPhone.Controls.UserControls
                     }
                     else
                     {
-                        if (PocketPaintApplication.GetInstance().ImportImageSelectionControl != null)
-                            PocketPaintApplication.GetInstance().ImportImageSelectionControl.changeWidthOfDrawingSelection(currentValue, false);
+                        //if (PocketPaintApplication.GetInstance().ImportImageSelectionControl != null)
+                        //    PocketPaintApplication.GetInstance().ImportImageSelectionControl.changeWidthOfDrawingSelection(currentValue, false);
                     }
                 }
             }

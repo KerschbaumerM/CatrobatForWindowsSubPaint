@@ -79,8 +79,6 @@
                 <!--  ImageSelectionControl  -->
                 <Grid
                     x:Name="GridImportImageSelectionControl"
-                    Width="230"
-                    Height="230"
                     Visibility="Collapsed"
                     >
                     <userControls:ImportImageSelectionControl />

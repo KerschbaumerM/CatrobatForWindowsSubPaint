@@ -141,8 +141,8 @@ namespace Catrobat.Paint.WindowsPhone.View
                             pocketPaintApplication.SwitchTool(ToolType.ImportPng);
                             pocketPaintApplication.GridImportImageSelectionControl.Children.Clear();
                             pocketPaintApplication.GridImportImageSelectionControl.Children.Add(new ImportImageSelectionControl());
-                            pocketPaintApplication.BarRecEllShape.setBtnHeightValue = 160.0;
-                            pocketPaintApplication.BarRecEllShape.setBtnWidthValue = 160.0;
+                            //pocketPaintApplication.BarRecEllShape.setBtnHeightValue = 160.0;
+                            //pocketPaintApplication.BarRecEllShape.setBtnWidthValue = 160.0;
 
                             pocketPaintApplication.GridImportImageSelectionControl.Visibility = Visibility.Visible;
                             pocketPaintApplication.InfoBoxActionControl.Visibility = Visibility.Visible;
